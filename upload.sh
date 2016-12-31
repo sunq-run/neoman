@@ -1,7 +1,7 @@
 #/bin/bash
 git init 
-git add $1
-git commit -m "new update"
+git add .
+git commit -m "$1"
 git remote add origin https://github.com/sunq-run/neoman.git
 git push -u origin master
 
