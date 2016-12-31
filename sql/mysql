@@ -1,0 +1,6 @@
+[cli login with password] > mysql -u root -p
+[show db lists] > SHOW DATABASES;
+[make db]	> CREATE DATABASES [db name];
+[show table lists] > SHOW TABLES FROM [database name];
+[show all data]    > SELECT * FROM [tabel]
+
