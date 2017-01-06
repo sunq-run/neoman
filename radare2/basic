@@ -1,0 +1,11 @@
+radare2 
+全領域解析 aaa
+afl) all function list
+s [functionname]
+pdf) print dissassembler function
+
+Print call graph:
+agc > /tmp/foo.dot xdot /tmp/foo.dot
+Print a detailed graph:
+ag $$ > /tmp/c2.dot
+
